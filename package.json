@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-core-server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  }
+}
